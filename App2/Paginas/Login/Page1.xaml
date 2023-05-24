@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Paginas.Login.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido a Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Abrir la calculadora" Clicked="Button_Clicked"/>
+            <Label Text="Proyecto Calculadora"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nayeli Cuásquer" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
